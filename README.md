@@ -1,7 +1,8 @@
-this site is still in construction...
+  #   Hi everyone !
 
-# Hi everyone !
-# zbenkhadaj.github.io
-# Dedicated repository for the webpage ZBenkhadaj
+This site is still in construction...
+It's using a dedicated repository ZBenkhadaj (try in lowercase if it is not working)
+
+base url: https://zbenkhadaj.github.io
 
 [Visit my GitHub Pages site](https://zbenkhadaj.github.io)
