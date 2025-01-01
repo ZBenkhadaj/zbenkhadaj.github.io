@@ -1,15 +1,13 @@
 ---
 layout: default
-title: "Welcome to my website - Bienvenue sur mon site web"
+title: "Ziyad BENKHADAJ"
 ---
 
-# Welcome to My Website
+# Welcome to my website - Bienvenue sur mon site web
 
-This is the homepage of my GitHub repository!
-
-## Features:
 - CV
-- Opinions
+- Opinions philosophiques
+- Soutien scolaire en mathématiques et physique, du lycée jusqu'au supérieur (prépa, licence, médecine...).
   
 
 ## Contributing
