@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome to My Website"
+title: "Welcome to my website - Bienvenue sur mon site web"
 ---
 
 # Welcome to My Website
@@ -8,20 +8,13 @@ title: "Welcome to My Website"
 This is the homepage of my GitHub repository!
 
 ## Features:
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-
-1. Clone the repository.
-2. Install dependencies.
-3. Run the application.
+- CV
+- Opinions
+  
 
 ## Contributing
 
-Feel free to contribute by opening issues or pull requests.
+For contact, email me on this email:
+Pour me contacter, merci de m'écrire sur cette adresse: [youremail@example.com](mailto:ziyad.benkhadaj@gmail.com)
 
 ---
-#### Contact:
-- Email: [youremail@example.com](mailto:youremail@example.com)
