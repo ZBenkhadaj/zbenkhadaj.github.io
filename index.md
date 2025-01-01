@@ -32,6 +32,6 @@ title: "Ziyad BENKHADAJ"
 
 For contact, please email me on this email address - Pour me contacter, merci de m'écrire sur cette adresse mail: 
 
-              [ziyad.benkhadaj@gmail.com](mailto:ziyad.benkhadaj@gmail.com)
+[ziyad.benkhadaj@gmail.com](mailto:ziyad.benkhadaj@gmail.com)
 
 ---
