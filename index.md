@@ -44,11 +44,11 @@ title: "Ziyad BENKHADAJ"
     <li>Soutien scolaire en mathématiques et physique, du lycée jusqu'au supérieur (prépa, licence, médecine...)</li>
   </ul>
 
-  <h2>Pour me contacter, merci de m'écrire à l'adresse suivante :</h2>
+  <h2>Pour me contacter, merci de m'écrire à l'adresse suivante:</h2>
   <p>Email : <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
 
   <!-- Date and Time Display for French -->
-  <p id="date-time-fr">Date et heure : <span id="current-date-time-fr"></span></p>
+  <p id="date-time-fr">Date et heure: <span id="current-date-time-fr"></span></p>
 </div>
 
 <!-- JavaScript to Toggle Language and Display Date/Time -->
