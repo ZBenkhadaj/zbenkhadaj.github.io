@@ -3,8 +3,6 @@ layout: default
 title: "Ziyad BENKHADAJ"
 ---
 
-This website is still under construction...
-
 <!-- Language Selector (Flags for English and French) -->
 <div id="language-toggle">
   <button onclick="setLanguage('en')">
@@ -30,6 +28,9 @@ This website is still under construction...
 
   <h2>For contact, please email me at:</h2>
   <p>Email: <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
+  
+  <!-- Date and Time Display for English -->
+  <p id="date-time-en">Last updated: <span id="current-date-time-en"></span></p>
 </div>
 
 <!-- French Content (Default hidden) -->
@@ -45,9 +46,12 @@ This website is still under construction...
 
   <h2>Pour me contacter, merci de m'écrire à l'adresse suivante :</h2>
   <p>Email : <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
+
+  <!-- Date and Time Display for French -->
+  <p id="date-time-fr">Dernière mise à jour : <span id="current-date-time-fr"></span></p>
 </div>
 
-<!-- JavaScript to Toggle Language -->
+<!-- JavaScript to Toggle Language and Display Date/Time -->
 <script>
   function setLanguage(lang) {
     // Hide both language contents
@@ -60,8 +64,31 @@ This website is still under construction...
     } else if (lang === 'fr') {
       document.getElementById('content-fr').style.display = 'block';
     }
+
+    // Update the date/time based on language
+    updateDateTime(lang);
   }
 
-  // Set default language to English
+  function updateDateTime(lang) {
+    var currentDate = new Date();
+    var options = { 
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', 
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
+    };
+    var formattedDate = currentDate.toLocaleDateString('en-US', options); // Default to English format
+
+    if (lang === 'fr') {
+      formattedDate = currentDate.toLocaleDateString('fr-FR', options); // French date format
+    }
+
+    // Update the date/time in the corresponding section
+    if (lang === 'en') {
+      document.getElementById('current-date-time-en').textContent = formattedDate;
+    } else if (lang === 'fr') {
+      document.getElementById('current-date-time-fr').textContent = formattedDate;
+    }
+  }
+
+  // Set default language to English and update the date/time
   setLanguage('en');
 </script>
