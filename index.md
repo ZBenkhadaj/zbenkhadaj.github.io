@@ -4,7 +4,7 @@ title: "Ziyad BENKHADAJ"
 ---
 
 
-<!-- Language Selector (Flags for English and French) -->
+<!-- Language Selector (Flags for English and French sol 2) -->
 <div id="language-toggle">
   <button onclick="setLanguage('en')">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_Kingdom.svg" alt="English" style="width: 30px; height: 20px;">
@@ -15,6 +15,9 @@ title: "Ziyad BENKHADAJ"
     Français
   </button>
 </div>
+
+
+
 
 [//]: <> (This is also a comment.)
 
