@@ -1,4 +1,37 @@
-title: "Welcome to my personal website"
-description: "available soon.."
-url: "https://zbenkhadaj.github.io"
-theme: minima
+# _config.yml
+
+# Basic site information
+title: "My Project"  # Replace with your project name
+description: "A short description of what my project is about."  # A brief description of your site
+baseurl: ""  # Leave this empty if your site is in the root of your repository
+url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL or your custom domain
+
+# Author information
+author:
+  name: "Your Name"
+  email: "youremail@example.com"
+
+# Markdown processor and other settings
+markdown: kramdown
+highlighter: rouge
+
+# Set the theme (you can change this or leave it blank to use a custom layout)
+theme: jekyll-theme-minimal  # You can change this to another theme or omit it for a custom design
+
+# Social media and other links (optional)
+social:
+  twitter: "yourusername"
+  github: "yourusername"
+  linkedin: "your-linkedin"
+
+# Permalink style (optional)
+permalink: /:year/:month/:day/:title/
+
+# Exclude files from being processed (e.g., don't include the README in the site)
+exclude:
+  - README.md
+
+# Google Analytics (optional - add your own tracking code here if needed)
+google_analytics: "UA-XXXXX-X"
+
+# Include any other settings as needed
