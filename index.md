@@ -30,7 +30,7 @@ title: "Ziyad BENKHADAJ"
   <p>Email: <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
   
   <!-- Date and Time Display for English -->
-  <p id="date-time-en">Last updated: <span id="current-date-time-en"></span></p>
+  <p id="date-time-en">Date and time: <span id="current-date-time-en"></span></p>
 </div>
 
 <!-- French Content (Default hidden) -->
@@ -48,7 +48,7 @@ title: "Ziyad BENKHADAJ"
   <p>Email : <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
 
   <!-- Date and Time Display for French -->
-  <p id="date-time-fr">Dernière mise à jour : <span id="current-date-time-fr"></span></p>
+  <p id="date-time-fr">Date et heure : <span id="current-date-time-fr"></span></p>
 </div>
 
 <!-- JavaScript to Toggle Language and Display Date/Time -->
