@@ -103,38 +103,7 @@ title: "Ziyad BENKHADAJ"
   // Set default language to English and update the date/time
   setLanguage('en');
 
-  <!-- Real-Time Date and Time -->
-<div id="datetime" style="font-size: 18px; font-family: Arial, sans-serif; color: white; text-align: center; padding: 10px; background-color: rgba(0, 0, 0, 0.5); border-radius: 5px; margin-top: 20px;">
-  Loading date and time...
-</div>
-
-<!-- JavaScript to Update Time -->
-<script>
-  function updateTime() {
-    const now = new Date(); // Get the current date and time
-    const options = { 
-      weekday: 'long', 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric', 
-      hour: '2-digit', 
-      minute: '2-digit', 
-      second: '2-digit', 
-      hour12: true 
-    };
-
-    // Format the current date and time
-    const dateString = now.toLocaleString('en-US', options);
-
-    // Update the content of the #datetime element
-    document.getElementById('datetime').textContent = dateString;
-  }
-
-  // Update the time every second
-  setInterval(updateTime, 1000);
-
-  // Set initial time immediately when the page loads
-  updateTime();
+ 
 
                           
 </script>
