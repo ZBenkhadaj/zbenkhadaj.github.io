@@ -53,7 +53,7 @@ title: "Ziyad BENKHADAJ"
 
 <!-- Image of Ziyad (Uploaded locally) -->
 <div class="profile-image">
-  <img src="{{ site.baseurl }}/assets/myphoto.jpg" alt="Ziyad BENKHADAJ" style="width: 200px; height: auto;">
+  <img src="{{ site.baseurl }}/assets/photo_Ziyad_Alpes.JPG" alt="Ziyad BENKHADAJ" style="width: 200px; height: auto;">
 </div>
 
 <!-- JavaScript to Toggle Language and Display Date/Time -->
