@@ -63,7 +63,11 @@ title: "Ziyad BENKHADAJ"
 
 <!-- JavaScript to Toggle Language and Display Date/Time -->
 <script>
+  var currentLanguage = 'en'; // Default language is English
+
   function setLanguage(lang) {
+    currentLanguage = lang; // Update the global currentLanguage variable
+
     // Hide both language contents
     document.getElementById('content-en').style.display = 'none';
     document.getElementById('content-fr').style.display = 'none';
@@ -106,9 +110,11 @@ title: "Ziyad BENKHADAJ"
       weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', 
       hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
     };
-    var formattedDate = currentDate.toLocaleDateString('en-US', options);
 
     // Display the real-time date in the selected language
+    var formattedDate = currentDate.toLocaleDateString(currentLanguage === 'fr' ? 'fr-FR' : 'en-US', options);
+
+    // Update the real-time date in the selected language sections
     document.getElementById('datetime').textContent = formattedDate;
     document.getElementById('current-date-time-en').textContent = formattedDate;
     document.getElementById('current-date-time-fr').textContent = formattedDate;
