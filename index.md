@@ -122,5 +122,5 @@ title: "Ziyad BENKHADAJ"
   setInterval(updateRealTime, 1000);
 
   // Set default language to English and update the date/time
-  setLanguage('en');
+  setLanguage('fr');
 </script>
