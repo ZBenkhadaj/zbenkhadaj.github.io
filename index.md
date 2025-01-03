@@ -29,8 +29,6 @@ title: "Ziyad BENKHADAJ"
   <h2>For contact, please email me at:</h2>
   <p>Email: <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
   
-  <!-- Date and Time Display for English -->
-  <p id="date-time-en">Date and time: <span id="current-date-time-en"></span></p>
 </div>
 
 <!-- French Content (Default hidden) -->
@@ -46,9 +44,7 @@ title: "Ziyad BENKHADAJ"
 
   <h2>Pour me contacter, merci de m'écrire à l'adresse suivante:</h2>
   <p>Email : <a href="mailto:ziyad.benkhadaj@gmail.com">ziyad.benkhadaj@gmail.com</a></p>
-
-  <!-- Date and Time Display for French -->
-  <p id="date-time-fr">Date et heure: <span id="current-date-time-fr"></span></p>
+  
 </div>
 
 <!-- Image of Ziyad (Uploaded locally) -->
