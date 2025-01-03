@@ -61,7 +61,6 @@ title: "Ziyad BENKHADAJ"
   Loading date and time...
 </div>
 
-
 <!-- JavaScript to Toggle Language and Display Date/Time -->
 <script>
   function setLanguage(lang) {
@@ -100,10 +99,24 @@ title: "Ziyad BENKHADAJ"
     }
   }
 
+  // Function to continuously update the real-time date and time
+  function updateRealTime() {
+    var currentDate = new Date();
+    var options = { 
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', 
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
+    };
+    var formattedDate = currentDate.toLocaleDateString('en-US', options);
+
+    // Display the real-time date in the selected language
+    document.getElementById('datetime').textContent = formattedDate;
+    document.getElementById('current-date-time-en').textContent = formattedDate;
+    document.getElementById('current-date-time-fr').textContent = formattedDate;
+  }
+
+  // Set the real-time update interval to 1 second (1000 milliseconds)
+  setInterval(updateRealTime, 1000);
+
   // Set default language to English and update the date/time
   setLanguage('en');
-
- 
-
-                          
 </script>
