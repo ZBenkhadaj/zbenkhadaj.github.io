@@ -15,6 +15,11 @@ title: "Ziyad BENKHADAJ"
   </button>
 </div>
 
+<!-- Image of Ziyad (Uploaded locally) -->
+<div class="profile-image">
+  <img src="{{ site.baseurl }}/assets/photo_Ziyad_Alpes.JPG" alt="Ziyad BENKHADAJ" style="width: 200px; height: auto;">
+</div>
+
 <!-- English Content (Default hidden) -->
 <div id="content-en" class="language-content">
   <h1>Welcome to my website</h1>
@@ -47,10 +52,7 @@ title: "Ziyad BENKHADAJ"
   
 </div>
 
-<!-- Image of Ziyad (Uploaded locally) -->
-<div class="profile-image">
-  <img src="{{ site.baseurl }}/assets/photo_Ziyad_Alpes.JPG" alt="Ziyad BENKHADAJ" style="width: 200px; height: auto;">
-</div>
+
 
 <!-- Real-Time Date and Time -->
 <div id="datetime" style="font-size: 18px; font-family: Arial, sans-serif; color: white;">
