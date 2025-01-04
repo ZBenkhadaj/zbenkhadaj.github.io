@@ -109,6 +109,11 @@ title: "Ziyad BENKHADAJ"
       hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
     };
 
+    // If language is French, change the hour format to 24-hour
+  if (currentLanguage === 'fr') {
+    options.hour12 = false;  // Switch to 24-hour format for French
+  }
+    
     // Display the real-time date in the selected language
     var formattedDate = currentDate.toLocaleDateString(currentLanguage === 'fr' ? 'fr-FR' : 'en-US', options);
 
