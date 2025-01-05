@@ -3,6 +3,9 @@ layout: default
 title: "Ziyad BENKHADAJ"
 ---
 
+en cours de construction...
+loading...
+
 <!-- Language Selector (Flags for English and French) -->
 <div id="language-toggle">
   <button onclick="setLanguage('en')">
