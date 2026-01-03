@@ -35,3 +35,15 @@ exclude:
 google_analytics: "UA-XXXXX-X"
 
 # Include any other settings as needed
+
+# Navigation bar
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects
+  - title: CV
+    url: /cv
+  - title: Contact
+    url: /contact
+
