@@ -48,4 +48,6 @@ nav:
     url: /cv
   - title: Contact
     url: /contact
+  -title: MPC
+    url: /MPC
 
